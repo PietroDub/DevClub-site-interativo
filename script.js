@@ -25,7 +25,7 @@ function back(){
     activeOld.classList.remove('active')
 
     if(active <= 0){
-        active = list - 1
+        active = 6
     } else {
         active--
     }
